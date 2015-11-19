@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2155px" height="470px" viewBox="0 0 2155 470" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch -->
+    <title>Pow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Pow" sketch:type="MSArtboardGroup">
+            <g id="Pow-Original" sketch:type="MSLayerGroup" transform="translate(751.000000, 20.000000)">
+                <g id="Pow" sketch:type="MSShapeGroup">
+                    <polygon id="Polygon-1" fill="#F6A623" points="219.812802 55 250.932367 112.793478 327.496377 81.1733359 327.496377 133.786836 409 133.786836 351.700483 218.007247 382.820048 277.52959 298.846619 265.921498 250.932368 319.269324 204.5 285.185991 130.405797 330.630435 108.177536 277.52959 20.2524155 305.932368 52.8538656 247.150967 -3.50980652e-15 192.571538 68.1666649 166.141305 68.1666649 112.793478 146.21256 112.793478 146.21256 81.1733359 184.741545 94.0229469 "></polygon>
+                    <polygon id="Polygon-1-Copy-2" fill="#D0011B" transform="translate(813.500000, 223.000000) scale(-1, 1) translate(-813.500000, -223.000000) " points="830.90942 -1.4198121e-15 866.289855 93.516129 953.336956 42.351302 953.336956 127.485663 1046 127.485663 980.855072 263.763441 1016.23551 360.077061 920.764493 341.293907 866.289856 427.616487 813.5 372.46595 729.26087 446 703.989131 360.077061 604.025362 406.035842 641.090581 310.921147 581 222.6057 658.499998 179.83871 658.499998 93.516129 747.231884 93.516129 747.231884 42.351302 791.036231 63.1433692 "></polygon>
+                </g>
+            </g>
+            <text id="ROAR!" sketch:type="MSTextLayer" transform="translate(960.373086, 221.870584) rotate(-12.000000) translate(-960.373086, -221.870584) " font-family="Frijole" font-size="90" font-weight="normal" fill="#2B2B2B">
+                <tspan x="750.827232" y="253.870584">ROAR!</tspan>
+            </text>
+            <text id="Beep" sketch:type="MSTextLayer" transform="translate(1585.397560, 263.761298) rotate(-346.000000) translate(-1585.397560, -263.761298) " font-family="Black Ops One" font-size="90" font-weight="686" fill="#2B2B2B">
+                <tspan x="1410.36222" y="177.761298">Beep</tspan>
+                <tspan x="1410.36222" y="289.761298">Boop</tspan>
+                <tspan x="1410.36222" y="401.761298">Smash</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

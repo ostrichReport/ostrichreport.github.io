@@ -1,0 +1,591 @@
+@import url(https://fonts.googleapis.com/css?family=Codystar|Sancreek|Lato:400,400italic,700|Frijole|Black+Ops+One|Alegreya);
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: inherit;
+	font-weight: inherit;
+	text-decoration: inherit;
+	color: inherit;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+}
+
+.sr {
+	text-indent: -9999px;
+}
+
+.title {
+	width: 100%;
+	background-color: #242424;
+	text-align: center;
+}
+
+
+.bite {
+	position: relative;
+	width: 100%;
+}
+
+.bite:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -80px;
+  width: 100%;
+  height: 80px;
+}
+
+.title:before {
+  background:
+    linear-gradient(
+      45deg, transparent 33.333%,
+      #242424 33.333%, #242424 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -45deg, transparent 33.333%,
+      #242424 33.333%, #242424 66.667%,
+      transparent 66.667%
+    );
+  background-size: 150px 300px;
+}
+
+.topBite {
+	position: relative;
+	width: 100%;
+	height: 0;
+}
+
+.topBite:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -80px;
+  width: 100%;
+  height: 80px;
+  background:
+    linear-gradient(
+      45deg, transparent 33.333%,
+      #242424 33.333%, #242424 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -45deg, transparent 33.333%,
+      #242424 33.333%, #242424 66.667%,
+      transparent 66.667%
+    );
+  background-size: 150px 300px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.robot {
+	font-family: "Black Ops One", Arial, sans-serif;
+	font-size: 6em;
+	color: #F80000;
+	display: inline-block;
+	padding: 7.8125% 1.5625% 2.0833%;
+}
+
+h2 {
+	font-family: Lato, Arial, sans-serif;
+	font-size: 3em;
+	color: #9B9B9B;
+	font-weight: 700;
+	display: inline-block;
+	padding: 0 1.0417% 4.6875%;
+}
+
+.dino {
+	font-family: Frijole, Arial, sans-serif;
+	font-size: 5em;
+	color: #8CB18E;
+	display: inline-block;
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+	padding: 7.8125% 1.5625% 2.0833%;
+}
+
+.original {
+	width: 100%;
+	background: #D7CCE8 url("original.svg") center center no-repeat;
+	height: 90vh;
+	background-size: contain;
+	background-attachment: fixed;	
+}
+
+.intro {
+	padding: 4% 25% 10%;
+	text-align: left;
+}
+
+p, ul {
+	font-family: Lato, Arial, sans-serif;
+	color: #cfcfcf;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+ul {
+	list-style-type: none;
+	padding: 5%;
+}
+
+.pow {
+	padding: 4.6875% 13.5417% 0 3.125%;
+	width: 100%;
+	opacity: 0;
+	position: absolute;
+	-webkit-transition: opacity .1s;
+	-moz-transition: opacity .1s;
+	-ms-transition: opacity .1s;
+	-o-transition: opacity .1s;
+	transition: opacity .1s;
+}
+
+.dialogue {
+	height: 100px;
+	position: relative;
+}
+
+.dialogue:hover .pow {
+	opacity: 1;
+}
+
+.sprite11 {
+	background: url(sprite.png);
+	height: 150px;
+	width: 150px;
+	background-position: -450px 0;
+}
+
+.sprite11:hover {
+	background-position: -300px 0;
+}
+
+.sprite22 {
+	background: url(sprite.png);
+	height: 150px;
+	width: 150px;
+	background-position: -150px 0;
+}
+
+.sprite22:hover {
+	background-position: 0 0;
+}
+
+.sprite33 {
+	background: url(sprite.png);
+	height: 150px;
+	width: 150px;
+	background-position: -750px 0;
+}
+
+.sprite33:hover {
+	background-position: -600px 0;
+}
+
+.sprite {
+	text-align: center;
+	background-color: #242424;
+}
+
+.sprite1, .sprite2, .sprite3 {
+	display: inline-block;
+	padding: 3.125%;
+	width: 25%;
+	margin-bottom: 10%;
+	vertical-align: top;
+}
+
+.sprite11, .sprite22, .sprite33 {
+	margin: 30px auto 20px;
+	text-indent: -9999px;
+}
+
+.boxHeading {
+	background-color: rgba(200, 59, 55, .7);
+	text-align: center;
+}
+
+.boxing {
+	background: #f39e8b url("boxing.svg") bottom center no-repeat;
+}
+
+#champion {
+	color: #000;
+	font-size: 3.1em;
+	background-color: rgba(0, 0, 0, .5);
+	margin-bottom: -2.2%;
+}
+
+.boxers {
+	font-size: 6em;
+	display: inline;
+	color: #fff;
+}
+
+#vs {
+	border: 2px solid #fff;
+	border-radius: 100%;
+	display: inline;
+	color: #fff;
+	padding: .833333%;
+	font-size: 2em;
+	margin: .833333%;
+	vertical-align: 30%;
+}
+
+#legacy {
+	color: #000;
+	font-size: 2em;
+	font-weight: 400;
+	margin-top: -2.2%;
+}
+
+.esquire {
+	background: #548e95 url("esquire.svg") bottom center no-repeat;
+}
+
+.esqHeading {
+	background-color: rgba(0, 0, 0, .4);
+	text-align: center;
+}
+
+.seal {
+	width: 8%;
+	opacity: .6;
+	margin-top: 1%;
+}
+
+.plaintiffs {
+	font-size: 5.5em;
+	font-family: Alegreya, Georgia, serif;
+	color: #AB8939;
+	line-height: 1em;
+}
+
+.western {
+	background: #A78F79 url("western.svg") bottom center no-repeat;
+}
+
+.westHeading {
+	background-color: rgba(109, 48, 20, .5);
+	text-align: center;
+}
+
+#circle1, #circle2, #circle3, #circle4 {
+	height: 2em;
+	width: 4em;
+	background-color: #A78F79;
+	display: inline;
+}
+
+#circle1 {
+	border-radius: 0 0 100% 0;
+	float: left;
+}
+
+#circle2 {
+	border-radius: 0 0 0 100%;
+	float: right;
+}
+
+#circle3 {
+	border-radius: 0 100% 0 0;
+	float: left;
+	position: relative;
+	bottom: 2em;
+}
+
+#circle4 {
+	border-radius: 100% 0 0 0;
+	float: right;
+	position: relative;
+	bottom: 2em;
+}
+
+#wanted, #kid, #alive {
+	font-family: Sancreek, Georgia, serif;
+	color: #2B2B2B;
+}
+
+#wanted {
+	font-size: 8em;
+	line-height: 1em;
+}
+
+#kid {
+	font-size: 3.5em;
+	line-height: .6em;
+}
+
+#alive {
+	font-size: 2em;
+	line-height: 1.6em;
+}
+
+.vote {
+	background: #C8C8EC url("politician.svg") bottom center no-repeat;
+}
+
+.voteHeading {
+	text-align: center;
+}
+
+#blue {
+	background: rgba(0, 1, 152, .5) url("star.svg") center center repeat-x;
+	height: 4em;
+}
+
+#white {
+	background-color: rgba(255, 255, 255, .5);
+}
+
+#red {
+	background-color: rgba(235, 0, 0, .5);
+	height: 4em;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+input[type="radio"] + label span {
+	display: inline-block;
+	width: 3.6em;
+	height: 3.6em;
+	border: 2px solid #000198;
+}
+
+input[type="radio"]:checked + label span {
+	background: url("x.svg") center center no-repeat;
+	background-size: contain;
+}
+
+#white p {
+	color: #000198;
+	font-size: 5em;
+	line-height: 1.1em;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.ballot1 {
+	margin-right: 10%;
+	display: inline-block;
+}
+
+.ballot2 {
+	display: inline-block;
+}
+
+i {
+	font-style: italic;
+}
+
+.dance {
+	background: #7B718A url("danceOff.svg") bottom center no-repeat;
+}
+
+.danceHeading {
+	background-color: rgba(0, 0, 0, .6);
+	text-align: center;
+}
+
+.dancing {
+	font-family: Codystar, Arial, sans-serif;
+	font-size: 7em;
+	border: 3px dotted #FFFABB;
+	display: inline;
+	color: #FFEF28;
+	padding: .83333% 1.4%;
+}
+
+.conclusion {
+	background: #555555 url("trex2000.svg") bottom left 25% no-repeat;
+}
+
+.endHeading {
+	background-color: rgba(36, 36, 36, .85);	
+}
+
+h3 {
+	font-family: "Black Ops One", Arial, sans-serif;
+	text-align: center;
+	font-size: 4em;
+	color: #87889A;
+	line-height: 1em;
+	padding-top: 1.5%;
+}
+
+.endHeading p {
+	padding: 1% 25% 1.5%;
+	text-align: left;
+}
+
+.boxing, .esquire, .western, .vote, .dance, .conclusion {
+	width: 100%;
+	height: 110vh;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+.conclusion {
+	height: 120vh;
+}
+
+footer {
+	width: 100%;
+	padding: 7.2917% 0;
+	font-family: Lato, Arial, sans-serif;
+	font-size: 1em;
+	color: #9B9B9B;
+	text-align: center;
+	background-color: #242424;
+}
+
+.logo {
+	width: 8%;
+	display: inline-block;
+	margin-bottom: 2.08333%;
+}
+
+@media screen and (min-width: 1130px) {
+	.robot {
+		font-size: 7em;
+	}
+	.dino {
+		font-size: 6em;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.robot {
+		font-size: 5em;
+	}
+	.dino {
+		font-size: 4em;
+	}
+	#champion {
+		font-size: 2.5em;
+	}
+	.boxers {
+		font-size: 5em;
+	}
+}
+
+@media screen and (max-width: 785px) {
+	body {
+		font-size: 14px;
+	}
+	.sprite1, .sprite2, .sprite3 {
+		padding: 2%;
+		width: 30%;
+	}
+	.intro {
+		padding: 4% 15% 10%;
+	}
+	.endHeading p {
+		padding: 1% 15% 1.5%;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.robot {
+		font-size: 4em;
+	}
+	.dino {
+		font-size: 3em;
+	}
+	h2 {
+		font-size: 2em;
+	}
+	.boxers {
+		font-size: 4em;
+	}
+	.plaintiffs {
+		font-size: 5em;
+	}
+	h3 {
+		font-size: 3em;
+	}
+	#white p {
+		font-size: 4em;
+	}
+	input[type="radio"] + label span {
+		width: 2.9em;
+		height: 2.9em;
+	}
+	#champion {
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	body {
+		font-size: 12px;
+	}
+	.sprite1, .sprite2, .sprite3 {
+		display: block;
+		margin: 0 auto;
+		width: 60%;
+	}
+	.sprite3 {
+		padding-bottom: 5%;
+	}
+	.dancing {
+		font-size: 6em;
+	}
+	#boxerDino {
+		line-height: .5em;
+	}
+	#legacy {
+		line-height: 1.5em;
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 447px) {
+	.dino {
+		padding: .5% 1.5625% 3%;
+		font-size: 4em;
+	}
+	.robot {
+		font-size: 5em;
+	}
+	.dancing {
+		font-size: 4.5em;
+	}
+	#champion {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (orientation:portrait) {
+	.boxing, .esquire, .western, .vote, .dance, .conclusion {
+		height: 60vh;
+		background-position: center center;
+	}
+	.conclusion {
+		height: 85vh;
+	}
+	.original {
+		height: 60vh;
+		background-position: center 25%;
+	}
+	.pow {
+		padding-top: 18%;
+	}
+}
