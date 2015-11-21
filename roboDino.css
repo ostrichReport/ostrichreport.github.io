@@ -170,7 +170,7 @@ ul {
 	background-position: -450px 0;
 }
 
-.sprite11:hover, .sprite11:active {
+.sprite11:hover {
 	background-position: -300px 0;
 }
 
@@ -181,7 +181,7 @@ ul {
 	background-position: -150px 0;
 }
 
-.sprite22:hover, .sprite22:active {
+.sprite22:hover {
 	background-position: 0 0;
 }
 
@@ -192,7 +192,7 @@ ul {
 	background-position: -750px 0;
 }
 
-.sprite33:hover, .sprite33:active {
+.sprite33:hover {
 	background-position: -600px 0;
 }
 
@@ -543,7 +543,7 @@ footer {
 		width: 60%;
 	}
 	.sprite3 {
-		padding-bottom: 5%;
+		padding-bottom: 10%;
 	}
 	.dancing {
 		font-size: 6em;
@@ -581,6 +581,15 @@ footer {
 	.conclusion {
 		background-attachment: scroll;
 		height: 140vh;
+	}
+	.sprite11 {
+		background-position: -300px 0;
+	}
+	.sprite22 {
+		background-position: 0 0;
+	}
+	.sprite33 {
+		background-position: -600px 0;
 	}
 }
 
