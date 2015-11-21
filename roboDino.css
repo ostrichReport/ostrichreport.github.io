@@ -170,7 +170,7 @@ ul {
 	background-position: -450px 0;
 }
 
-.sprite11:hover {
+.sprite11:hover, .sprite11:active {
 	background-position: -300px 0;
 }
 
@@ -181,7 +181,7 @@ ul {
 	background-position: -150px 0;
 }
 
-.sprite22:hover {
+.sprite22:hover, .sprite22:active {
 	background-position: 0 0;
 }
 
@@ -192,7 +192,7 @@ ul {
 	background-position: -750px 0;
 }
 
-.sprite33:hover {
+.sprite33:hover, .sprite33:active {
 	background-position: -600px 0;
 }
 
@@ -573,17 +573,35 @@ footer {
 	}
 }
 
+@media screen and (max-device-width: 1024px) {
+	.original, .boxing, .esquire, .western, .vote, .dance {
+		background-attachment: scroll;
+		height: 100vh;
+	}
+	.conclusion {
+		background-attachment: scroll;
+		height: 140vh;
+	}
+}
+
+@media screen and (max-device-width: 736px) {
+	.boxing, .esquire, .western, .vote, .dance {
+		height: 125vh;
+	}
+	.conclusion {
+		height: 190vh;
+	}
+}
+
 @media screen and (orientation:portrait) {
-	.boxing, .esquire, .western, .vote, .dance, .conclusion {
+	.boxing, .esquire, .western, .vote, .dance {
 		height: 60vh;
-		background-position: center center;
 	}
 	.conclusion {
 		height: 85vh;
 	}
 	.original {
 		height: 60vh;
-		background-position: center 25%;
 	}
 	.pow {
 		padding-top: 18%;
