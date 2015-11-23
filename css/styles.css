@@ -119,7 +119,7 @@ h2 {
 
 .original {
 	width: 100%;
-	background: #D7CCE8 url("original.svg") center center no-repeat;
+	background: #D7CCE8 url("../img/original.svg") center center no-repeat;
 	height: 90vh;
 	background-size: contain;
 	background-attachment: fixed;	
@@ -164,7 +164,7 @@ ul {
 }
 
 .sprite11 {
-	background: url(sprite.png);
+	background: url("../img/sprite.png");
 	height: 150px;
 	width: 150px;
 	background-position: -450px 0;
@@ -175,7 +175,7 @@ ul {
 }
 
 .sprite22 {
-	background: url(sprite.png);
+	background: url("../img/sprite.png");
 	height: 150px;
 	width: 150px;
 	background-position: -150px 0;
@@ -186,7 +186,7 @@ ul {
 }
 
 .sprite33 {
-	background: url(sprite.png);
+	background: url("../img/sprite.png");
 	height: 150px;
 	width: 150px;
 	background-position: -750px 0;
@@ -220,7 +220,7 @@ ul {
 }
 
 .boxing {
-	background: #f39e8b url("boxing.svg") bottom center no-repeat;
+	background: #f39e8b url("../img/boxing.svg") bottom center no-repeat;
 }
 
 #champion {
@@ -255,7 +255,7 @@ ul {
 }
 
 .esquire {
-	background: #548e95 url("esquire.svg") bottom center no-repeat;
+	background: #548e95 url("../img/esquire.svg") bottom center no-repeat;
 }
 
 .esqHeading {
@@ -277,7 +277,7 @@ ul {
 }
 
 .western {
-	background: #A78F79 url("western.svg") bottom center no-repeat;
+	background: #A78F79 url("../img/western.svg") bottom center no-repeat;
 }
 
 .westHeading {
@@ -337,7 +337,7 @@ ul {
 }
 
 .vote {
-	background: #C8C8EC url("politician.svg") bottom center no-repeat;
+	background: #C8C8EC url("../img/politician.svg") bottom center no-repeat;
 }
 
 .voteHeading {
@@ -345,7 +345,7 @@ ul {
 }
 
 #blue {
-	background: rgba(0, 1, 152, .5) url("star.svg") center center repeat-x;
+	background: rgba(0, 1, 152, .5) url("../img/star.svg") center center repeat-x;
 	height: 4em;
 }
 
@@ -370,7 +370,7 @@ input[type="radio"] + label span {
 }
 
 input[type="radio"]:checked + label span {
-	background: url("x.svg") center center no-repeat;
+	background: url("../img/x.svg") center center no-repeat;
 	background-size: contain;
 }
 
@@ -396,7 +396,7 @@ i {
 }
 
 .dance {
-	background: #7B718A url("danceOff.svg") bottom center no-repeat;
+	background: #7B718A url("../img/danceOff.svg") bottom center no-repeat;
 }
 
 .danceHeading {
@@ -414,7 +414,7 @@ i {
 }
 
 .conclusion {
-	background: #555555 url("trex2000.svg") bottom left 25% no-repeat;
+	background: #555555 url("../img/trex2000.svg") bottom left 25% no-repeat;
 }
 
 .endHeading {
