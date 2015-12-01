@@ -374,12 +374,14 @@ input[type="radio"]:checked + label span {
 	background-size: contain;
 }
 
-#white p {
+em {
 	color: #000198;
 	font-size: 5em;
 	line-height: 1.1em;
 	display: inline-block;
 	margin-left: 5px;
+	font-style: normal;
+	font-family: Lato;
 }
 
 .ballot1 {
@@ -521,7 +523,7 @@ footer {
 	h3 {
 		font-size: 3em;
 	}
-	#white p {
+	em {
 		font-size: 4em;
 	}
 	input[type="radio"] + label span {
