@@ -25,7 +25,6 @@ body {
 	text-align: center;
 }
 
-
 .bite {
 	position: relative;
 	width: 100%;
@@ -102,6 +101,10 @@ h2 {
 	font-weight: 700;
 	display: inline-block;
 	padding: 0 1.0417% 4.6875%;
+}
+
+#showdown {
+	display: block;
 }
 
 .dino {
@@ -462,6 +465,18 @@ footer {
 	width: 8%;
 	display: inline-block;
 	margin-bottom: 2.08333%;
+}
+
+@media screen and (min-width: 1300px) {
+	body {
+		font-size: 18px;
+	}
+	#champion {
+		margin-bottom: -1%;
+	}
+	#legacy {
+		margin-top: -1%;
+	}
 }
 
 @media screen and (min-width: 1130px) {
