@@ -467,15 +467,15 @@ footer {
 	margin-bottom: 2.08333%;
 }
 
-@media screen and (min-width: 1300px) {
-	body {
-		font-size: 18px;
-	}
+@media screen and (min-width: 1430px) {
 	#champion {
 		margin-bottom: -1%;
 	}
 	#legacy {
 		margin-top: -1%;
+	}
+	body {
+		font-size: 18px;
 	}
 }
 
